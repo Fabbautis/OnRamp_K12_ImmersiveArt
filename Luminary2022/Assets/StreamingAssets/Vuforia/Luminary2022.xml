@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="InsideGardenTokaidoTaget" size="0.215000 0.145512" />
+    <ImageTarget name="HoloLens2Test" size="0.100000 0.066607" />
+    <ImageTarget name="TokaidoRoad1" size="0.215000 0.143206" />
+    <ImageTarget name="BooksAndScholars" size="0.215000 0.121119" />
+  </Tracking>
+</QCARConfig>

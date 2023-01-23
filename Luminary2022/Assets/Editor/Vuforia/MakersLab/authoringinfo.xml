@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_info.xsd">
+    <TargetSet version="3.4">
+        <AreaTarget version="5.0" bbox="-1.9618 -1.6096 -1.5984 14.7028 1.8847 18.6014" targetId="d82095bddd2d482e8806bdb75cf58c50" name="MakersLab" pathAuthoring="d82095bddd2d482e8806bdb75cf58c50_authoring.glb" pathOcclusion="d82095bddd2d482e8806bdb75cf58c50_occlusion.3dt" pathNavMesh="d82095bddd2d482e8806bdb75cf58c50_navmesh.glb" />
+    </TargetSet>
+</QCARInfo>

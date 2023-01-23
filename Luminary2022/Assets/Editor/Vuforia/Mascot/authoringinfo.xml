@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="33.0" toolVersion="v5.2.0-11-g13bb334">
+        <ModelTarget name="HondaCivic" targetId="99a3628580404028b15ae58b12024157" version="11.1" toolVersion="v5.2.0-11-g13bb334" bbox="-89.931496 9.666130 -0.134329 -9.389393 186.052597 55.518230" trackingMode="car" upVector="0.0 0.0 1.0" />
+    </TargetSet>
+    <Assembly name="HondaCivic" assemblyId="484f4f1fd28a4e2289c6eaa79179f216">
+        <Part name="HondaCivic" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

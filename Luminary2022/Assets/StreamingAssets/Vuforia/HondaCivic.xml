@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="HondaCivic" motionHint="static" trackingMode="car"/>
+
+</Tracking>
+
+<Assembly name="HondaCivics_assembly" assemblyId="110a486242fb4fd1931764fcab7dac84">
+<Part name="HondaCivic" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0012" translation="-10.7939 -8.4317 314.825" rotation="AD: 0.461826 1.58194 -1.13836 161.158" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="-86.1235 29.8638 94.8919" rotation="AD: 0.999094 0.271855 -0.201909 109.755" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="-94.5582 5.03195 191.836" rotation="AD: 0.913749 0.899819 -0.756461 125.419" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="102.356 23.3348 195.483" rotation="AD: -0.523954 1.36478 -1.22676 207.725" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
