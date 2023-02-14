@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AppSwitch : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class AppSwitch : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("App index: " + appNum);
+        Debug.Log("App count: " + apps.Length);
         currApp = apps[appNum];
     }
 
@@ -34,7 +37,28 @@ public class AppSwitch : MonoBehaviour
     public void OpenActivity()
     {
         Debug.Log("Launching: " + currApp.name);
+        LoadActivity(appNum);
 
     }
 
+    //Load activity
+    private void LoadActivity(int appNum)
+    {
+        switch (appNum)
+        {
+            case 0:
+                //load Tokaido
+                SceneManager.LoadScene("AR_Objects");
+                break;
+            case 1:
+                SceneManager.LoadScene("Sound_Scapes");
+                break;
+            case 2:
+                SceneManager.LoadScene("Beyond_The_Frame");
+                break;
+            default:
+                Debug.Log("Invalid option. Please enter a number between 0 and 2.");
+                break;
+        }
+    }
 }

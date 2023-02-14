@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Tokaido.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/UI.unity
+    guid: 01e6103c25932e34aa1510abd446c73f
+  - enabled: 1
+    path: Assets/Scenes/Apps/AR_Objects.unity
+    guid: 217a694c52f2cd6409226f673ae32a71
+  - enabled: 1
+    path: Assets/Scenes/Apps/Beyond_The_Frame.unity
+    guid: b159dcf9757ef99408e2d4d0bd4902f6
+  - enabled: 1
+    path: Assets/Scenes/Apps/Sound_Scapes.unity
+    guid: cd9c9aa6f0f2cab47b628a5a4b7845d6
   - enabled: 0
     path: Assets/Scenes/AreaTarget.unity
     guid: 1b295e9ed90412b4980abc83f8ea887e
