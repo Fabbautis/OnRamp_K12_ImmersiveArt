@@ -13,7 +13,7 @@ public class textPopup : MonoBehaviour
     public string A_boolName;
    
     public Animator BS;
-    //nathan thinks this project is ^^^
+    
     // Start is called before the first frame update
     void Start()
     {
