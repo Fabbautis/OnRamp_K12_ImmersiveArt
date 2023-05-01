@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="BooksAndScholarsAccouterments" size="1.000000 0.562945" />
+    <ImageTarget name="BooksAndScholarsPossessions" size="1.000000 0.413333" />
+  </Tracking>
+</QCARConfig>
