@@ -51,7 +51,7 @@ public class AppSwitch : MonoBehaviour
                 SceneManager.LoadScene("AR_Objects");
                 break;
             case 1:
-                SceneManager.LoadScene("Sound_Scapes");
+                SceneManager.LoadScene("DEV_Sound_Scapes");
                 break;
             case 2:
                 SceneManager.LoadScene("Beyond_The_Frame");
