@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/DEV/Sean/DEV_UI.unity
+    guid: 21512674a02ed41608e7671d5586d08f
+  - enabled: 1
+    path: Assets/DEV/Sean/DEV_Beyond_The_Frame.unity
+    guid: 482333eb04dd24c02ba3cd82bf831528
   - enabled: 1
     path: Assets/Scenes/UI.unity
     guid: 01e6103c25932e34aa1510abd446c73f
