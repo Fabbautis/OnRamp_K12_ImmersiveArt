@@ -5,16 +5,17 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Animations;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class textPopup : MonoBehaviour
 {
     public TMP_Text TextBox;
-    public string A_boolName;
+    [FormerlySerializedAs("A_boolName")] public string animBoolName;
     public string InputText;
     private bool toggle;
     public List<Animator> Animations;
-   // public Animator BS;
-    
+    // public Animator BS;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,34 +24,28 @@ public class textPopup : MonoBehaviour
 
     public void DisplayText()
     {
-        
-            if (toggle == false)
-            {
+        if (toggle == false)
+        {
             foreach (Animator Animm in Animations)
             {
-                Animm.SetBool(A_boolName, true);
-                
-            }
-            toggle = true;
-            TextBox.text = InputText;
+                Animm.SetBool(animBoolName, true);
             }
 
-            if (toggle == true)
+            toggle = true;
+            TextBox.text = InputText;
+        } else {
+            foreach (Animator Animm in Animations)
             {
-                foreach (Animator Animm in Animations)
-                {
-                    Animm.SetBool(A_boolName, false);
-                }
-                TextBox.text.Replace(A_boolName, "");
-                toggle = false;
+                Animm.SetBool(animBoolName, false);
             }
-        
-        
+
+            TextBox.text = "";
+            toggle = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }

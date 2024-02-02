@@ -8,16 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/DEV/Sean/DEV_UI.unity
-    guid: 21512674a02ed41608e7671d5586d08f
-  - enabled: 0
-    path: Assets/DEV/Sean/DEV_Beyond_The_Frame.unity
-    guid: 482333eb04dd24c02ba3cd82bf831528
   - enabled: 1
     path: Assets/Scenes/UI.unity
     guid: 01e6103c25932e34aa1510abd446c73f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Apps/AR_Objects.unity
     guid: 217a694c52f2cd6409226f673ae32a71
   - enabled: 1
@@ -32,6 +26,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ModelTarget.unity
     guid: 417733176e0ccdc4eafba0174bd373ec
+  - enabled: 0
+    path: Assets/DEV/Sean/DEV_UI.unity
+    guid: 21512674a02ed41608e7671d5586d08f
+  - enabled: 0
+    path: Assets/DEV/Sean/DEV_Beyond_The_Frame.unity
+    guid: 482333eb04dd24c02ba3cd82bf831528
+  - enabled: 1
+    path: Assets/DEV/Sean/DEV_AR_Objects.unity
+    guid: 26e2653b99d224080b29cffa2efe05f4
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: de6ec6c6e903055419e83dd3d6cb902a, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: fefa06eaef310134d8ff5b6ae8a5a3ef, type: 2}
