@@ -1,16 +1,21 @@
+using System;
 using UnityEngine;
 
 public class ARObject : MonoBehaviour
 {
 
-    [SerializeField]
-    private Animator animator;
+    private Animator _animator;
 
     private static readonly int ARObjectActivate = Animator.StringToHash("ARObjectActivate");
-    
+
+    public void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
+
     public void ActivateARObject()
     {
-        animator.SetTrigger(ARObjectActivate);
+        _animator.SetTrigger(ARObjectActivate);
     }
     
 }
