@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Apps/Beyond_The_Frame.unity
     guid: b159dcf9757ef99408e2d4d0bd4902f6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Apps/Sound_Scapes.unity
     guid: cd9c9aa6f0f2cab47b628a5a4b7845d6
   - enabled: 0
@@ -35,7 +35,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/DEV/Sean/DEV_AR_Objects.unity
     guid: 26e2653b99d224080b29cffa2efe05f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/DEV/Sean/DEV_Sound_Scapes.unity
     guid: 2dc55f40dfb3a4cf2838ba080f183c1d
   m_configObjects:
