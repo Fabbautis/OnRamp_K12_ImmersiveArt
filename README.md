@@ -18,6 +18,7 @@ TODO: Have John fill this out.
 | Benoit      | Brandon    | Project Manager |
 | Pope        | Dylan      | Developer       |
 | Smith       | Cameron    | Developer       |
+| Kaden       | Baratcart  | Developer       |
 | Farrell     | Nathan     | Artist          |
 | Flory       | Elise      | UX Designer     |
 I think we missing a few people.
